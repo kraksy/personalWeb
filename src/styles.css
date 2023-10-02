@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+.blockquote-footer {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 0.875em;
+    color: #6c757d;
+  }
+  .blockquote-footer::before {
+    content: "— ";
+  }
+  
